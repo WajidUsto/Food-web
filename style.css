@@ -26,8 +26,10 @@ body{
     color: var(--text-color);
     background: var(--bg-color);
 }
+  /* Nav-bar Started */
+/* Nav-bar Started */
 nav{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     right: 0;
     width: 100%;
@@ -59,4 +61,30 @@ nav{
 .navbar a:hover{
     color: var(--main-color);
     transition: .3s  ease-in;
+}
+#manu-icon{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
+}
+/* Nav-bar Ended */
+/* Nav-bar Ended */
+
+
+/* Main Started */
+/* Main Started */
+
+section{
+    padding: 70px 17%;
+}
+#main{
+    /* width: 100%;
+    min-height: 90vh;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 1.5rem; */
+    /* display: flex;
+    align-items: center;
+    jus */ 
 }
