@@ -30,15 +30,17 @@ body{
   /* Nav-bar Started */
 /* Nav-bar Started */
 nav{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     right: 0;
-    width: 100%;
+    /* width: 100%; */
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 170px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px;
     background-color: var(--bg-color);
 }
 .logo{
@@ -77,21 +79,29 @@ nav{
 /* Main Started */
 
 section{
-    padding: 70px 17%;
+    /* padding: 70px 17%; */
 }
 .home{
-    width: 100%;
+    /* width: 100%;
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat( 2, 1fr );
     grid-gap: 1.5rem;
-    align-items: center;
+    align-items: center; */
 }
 .home-img{
-    position: absolute;
+    /* position: absolute;
     bottom: 10rem;
     left: 65rem;
-    height: auto;
+    height: auto; */
+}
+.main-inside{
+    /* width: 80%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .home-text h1{
     font-size: var(--big-font);
@@ -116,4 +126,16 @@ section{
     /* background-color: #fff;
     color: black;
     transition: .8s all ease-in-out; */
+}
+.main-img{
+    width: 500px;
+    height: 450px;
+}
+@media(max-width:1230px){
+    .main-inside{
+        margin: 0 30px;
+    }
+    nav{
+        margin: 0 30px;
+    }
 }
